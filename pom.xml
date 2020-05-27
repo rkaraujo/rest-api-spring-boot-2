@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>teste</groupId>
-    <artifactId>renato</artifactId>
+    <artifactId>renato-cliente</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>renato-cliente</name>
     <description>REST API cadastro de clientes</description>
@@ -34,11 +34,17 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.h2database</groupId>-->
+<!--            <artifactId>h2</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--            <version>1.4.199</version>-->
+<!--        </dependency>-->
+
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
-            <version>1.4.199</version>
         </dependency>
 
         <dependency>
