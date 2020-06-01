@@ -1,11 +1,11 @@
-package renato.teste.dto;
+package renato.cliente.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.hibernate.validator.constraints.br.CPF;
-import renato.teste.model.Cliente;
-import renato.teste.util.FormatUtil;
+import renato.cliente.model.Cliente;
+import renato.cliente.util.FormatUtil;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package renato.teste.util;
+package renato.cliente.util;
 
 import br.com.caelum.stella.format.CPFFormatter;
 

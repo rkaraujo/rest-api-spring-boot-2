@@ -1,4 +1,4 @@
-package renato.teste.service;
+package renato.cliente.service;
 
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;

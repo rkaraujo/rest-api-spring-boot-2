@@ -1,14 +1,14 @@
-package renato.teste.service;
+package renato.cliente.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import renato.teste.exception.BusinessException;
-import renato.teste.exception.NotFoundException;
-import renato.teste.model.Cliente;
-import renato.teste.repository.ClienteRepository;
+import renato.cliente.exception.BusinessException;
+import renato.cliente.exception.NotFoundException;
+import renato.cliente.model.Cliente;
+import renato.cliente.repository.ClienteRepository;
 
 @Service
 public class ClienteService {

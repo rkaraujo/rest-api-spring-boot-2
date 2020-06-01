@@ -1,4 +1,4 @@
-package renato.teste.dto;
+package renato.cliente.dto;
 
 import lombok.Data;
 

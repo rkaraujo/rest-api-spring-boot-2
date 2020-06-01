@@ -1,11 +1,11 @@
-package renato.teste.controller;
+package renato.cliente.controller;
 
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
-import renato.teste.dto.ClienteDTO;
-import renato.teste.model.Cliente;
-import renato.teste.service.ClienteService;
-import renato.teste.util.FormatUtil;
+import renato.cliente.dto.ClienteDTO;
+import renato.cliente.model.Cliente;
+import renato.cliente.service.ClienteService;
+import renato.cliente.util.FormatUtil;
 
 import javax.validation.Valid;
 

@@ -1,9 +1,9 @@
-package renato.teste.repository;
+package renato.cliente.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;
-import renato.teste.model.Cliente;
+import renato.cliente.model.Cliente;
 
 public interface ClienteRepository extends CrudRepository<Cliente, Long> {
 

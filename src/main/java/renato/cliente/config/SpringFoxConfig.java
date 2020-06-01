@@ -1,4 +1,4 @@
-package renato.teste.config;
+package renato.cliente.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

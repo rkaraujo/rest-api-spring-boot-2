@@ -1,4 +1,4 @@
-package renato.teste.model;
+package renato.cliente.model;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.br.CPF;

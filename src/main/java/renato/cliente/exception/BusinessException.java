@@ -1,4 +1,4 @@
-package renato.teste.exception;
+package renato.cliente.exception;
 
 public class BusinessException extends RuntimeException {
 
