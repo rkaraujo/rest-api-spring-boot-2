@@ -14,6 +14,14 @@ Criar e rodar Docker da aplicação e do Posgresql:
 docker-compose up --build
 ~~~
 
+- Spring Boot
+- Spring Data
+- Postgresql
+- Flyway
+- Validation
+- Message Bundle
+- Swagger
+
 ## Postman
 
 Arquivo a ser importado no Postman para testes:
