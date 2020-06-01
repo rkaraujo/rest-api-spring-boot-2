@@ -21,6 +21,7 @@ docker-compose up --build
 - Validation
 - Message Bundle
 - Swagger
+- Docker
 
 ## Postman
 
