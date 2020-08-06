@@ -1,14 +1,16 @@
-# API Clientes
+# Customers API
 
-## Informações
+This is a sample I made implementing a REST API using Spring Boot. It provides operations to manage a customer record.
 
-Para executar, fazer build do projeto:
+## Infos
+
+Building the project:
 
 ~~~
 mvn clean package
 ~~~
 
-Criar e rodar Docker da aplicação e do Posgresql:
+Docker compose for starting the application and a Postgresql database:
 
 ~~~
 docker-compose up --build
@@ -25,7 +27,7 @@ docker-compose up --build
 
 ## Postman
 
-Arquivo a ser importado no Postman para testes:
+This is a Postman collection that can be imported to make some tests:
 
 ~~~
 renato-cliente.postman_collection.json
@@ -33,7 +35,7 @@ renato-cliente.postman_collection.json
 
 ## Swagger
 
-Documentação da API com Swagger
+Swagger for the API
 
 ~~~
 http://localhost:8080/swagger-ui.html
